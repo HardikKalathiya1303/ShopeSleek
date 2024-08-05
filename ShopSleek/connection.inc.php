@@ -1,8 +1,8 @@
 <?php
 session_start();
 $con=mysqli_connect("localhost","root","","shopsleek_database");
-define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/jasoliya_mart/JasolyaMart/');
-define('SITE_PATH','http://127.0.0.1/jasoliya_mart/JasolyaMart/');
+define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/shopsleek/shopsleek/');
+define('SITE_PATH','http://127.0.0.1/shopsleek/shopsleek/');
 
 define('PRODUCT_IMAGE_SERVER_PATH',SERVER_PATH.'media/product/');
 define('PRODUCT_IMAGE_SITE_PATH',SITE_PATH.'media/product/');
